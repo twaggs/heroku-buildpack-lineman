@@ -254,7 +254,6 @@ cd $BUILD_DIR
 # install Bundler and Sass gems unless enableSass is false
 #if [ `$BUILD_DIR/node_modules/.bin/lineman config enableSass` != "false" ]
 #then
-  rvm use 2.0.0
   echo "-----> Installing bundler and sass gems"
   export GEM_HOME="$BUILD_DIR/gems"
   export GEM_PATH=$GEM_HOME
